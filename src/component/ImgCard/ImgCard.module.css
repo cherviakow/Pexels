@@ -1,0 +1,14 @@
+.pagin{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.image{
+    width: 450px;
+    height: 300px;
+  
+}

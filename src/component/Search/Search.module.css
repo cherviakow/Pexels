@@ -1,0 +1,33 @@
+.headerInput {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.searchInput {
+  width: 380px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-color: rgb(216, 212, 206);
+  background-color: rgb(216, 212, 206);
+}
+
+.borderInput{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: rgb(216, 212, 206);
+    width: 430px;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    height: 35px;
+
+}
