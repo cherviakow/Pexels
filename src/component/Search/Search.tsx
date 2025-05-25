@@ -18,9 +18,11 @@ const SearchInput: React.FC<SearchInputProps> = ({ onSearch }) => {
 
         <form onSubmit={handleSubmit} >
 
-            <input type="text"
+            <input 
+            type="text"
                 value={input}
-                onChange={(e) => setInput(e.target.value)} />
+                onChange={(e) => setInput(e.target.value)} 
+                />
 
 <button type="submit">SEARCH</button>
 

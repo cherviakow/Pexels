@@ -1,17 +1,30 @@
 import React from "react";
 
 interface ImgCardProps{
-    src: string;
+    images:{
+      id: number;
     alt:string;
+    src:{
+        medium:string;
+    };
+    }[];
+    
 }
 
 
 
-const ImgCard: React.FC<ImgCardProps> = ({src,alt}) =>{
+const ImgCard: React.FC<ImgCardProps> = ({images}) =>{
 
     return(
         <div>
-            <img src={src} alt={alt} />
+    
+    {images.map((img) => (
+  <div key={img.id}>
+    <img src={img.src.medium} alt={img.alt} />
+    
+  </div>
+))}
+         
         </div>
     )
 

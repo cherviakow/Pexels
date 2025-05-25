@@ -2,7 +2,7 @@ import PexelsImg from "./component/API";
 import React, { useState } from "react";
 import SearchInput from "./component/Search/Search";
 import './App.css'
-import ImgCard from "./component/ImgCard/ImgCard";
+// import ImgCard from "./component/ImgCard/ImgCard";
 
 
 
@@ -22,9 +22,9 @@ const App: React.FC = ()=> {
     <>
      <p>WEB!</p>
        <SearchInput onSearch={handleSearch}/>
-     <PexelsImg query="nature"/>
+     <PexelsImg query={query}/>
    
-     <ImgCard query={query}/>
+     {/* <ImgCard query={query}/> */}
 
 
 
